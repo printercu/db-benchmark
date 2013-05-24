@@ -1,0 +1,25 @@
+{
+  "name": "db-benchmark",
+  "version": "0.0.0",
+  "description": "benchmark databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/printercu/db-benchmark.git"
+  },
+  "author": "Max Melentiev",
+  "license": "BSD",
+  "dependencies": {
+    "coffee-script": "*",
+    "flow-coffee": "*",
+    "underscore": "*",
+    "node-benchmark": "git://github.com/printercu/node-benchmark.git",
+
+    "redis": "*",
+    "couchbase": "*",
+    "memcached": "*"
+  }
+}
