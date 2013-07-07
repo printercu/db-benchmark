@@ -108,7 +108,7 @@ benchmarks  = []
 setups      = []
 
 for name in benchmarks_enabled
-  next unless benchmark = benchmarks_available[name]
+  continue unless benchmark = benchmarks_available[name]
   setups.push benchmark.setup if benchmark.setup
   benchmarks.push _.extend {}, bm_defaults,
     description:  name
